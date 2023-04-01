@@ -16,9 +16,9 @@ The model will help optimize production so as not to launch an enterprise with u
 
 When the mined ore undergoes primary processing, a crushed mixture is obtained. It is sent for flotation (enrichment) and two-stage purification:
 
-![pr.PNG](attachment:pr.PNG)
+![image](https://user-images.githubusercontent.com/116455436/229314073-f0e14878-a404-42a1-9332-ceb585bb348a.png)
 
-### Data naming description
+## Data naming description
 
 Feature names look like this: `[stage].[parameter_type].[parameter_name]`  
 Example: `rougher.input.feed_ag`  
@@ -51,11 +51,11 @@ Flotation reagents:
 * Depressant (sodium silicate).  
 
 
-### Calculations and task metrics
+## Calculations and task metrics
 
 1. ***Recovery.*** Formula for recovery calculation:
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/116455436/229314092-74eef053-78dc-466b-8909-52848c0c5ba6.png)
 
 where:  
 ***recovery*** is the recovery percentage(`rougher.output.recovery`);  
@@ -65,7 +65,7 @@ where:
 
 2. **SMAPE (Symmetric Mean Absolute Percentage Error)** is used as the main metric for models evaluation in this task:
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/116455436/229314097-6e4477f4-b685-4e09-9d3a-dfadeb5746eb.png)
 
 where:  
 ***y<sub>i</sub>*** is the target recovery percentage;  
@@ -74,4 +74,4 @@ where:
 
 SMAPE is calculated separately for model predictions on `rougher.output.recovery` and `final.output.recovery`, and then two metrics are weighed to produce the final result:
 
-![smape.png](attachment:smape.png)
+![image](https://user-images.githubusercontent.com/116455436/229314099-8d391964-ad5c-4c25-82ae-cb2cd6939b70.png)
