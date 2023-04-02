@@ -1,11 +1,11 @@
 # Recovery of gold from ore
 
+The final project with small omissions is presented in `notebook.ipynb` file.  
+The project with more thorough explanations, justifications and frighteningly excessive figures is stored in `notebook_extended.ipynb`.
+
 ## Introduction and description
 
-The project is provided by the [Zyfra](https://www.zyfra.com/) company. The company develops solutions for the efficient operation of industrial enterprises.    
-
-The final project with small omissions is presented in `notebook.ipynb` file.
-The project with more thorough explanations, justifications and frighteningly excessive figures is stored in `notebook_extended.ipynb`.
+The task is provided by the [Zyfra](https://www.zyfra.com/) company. The company develops solutions for the efficient operation of industrial enterprises.    
 
 **Task:**
 
