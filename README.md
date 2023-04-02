@@ -4,9 +4,12 @@
 
 The project is provided by the [Zyfra](https://www.zyfra.com/) company. The company develops solutions for the efficient operation of industrial enterprises.    
 
+The final project with small omissions is presented in `notebook.ipynb` file.
+The project with more thorough explanations, justifications and frighteningly excessive figures is stored in `notebook_extended.ipynb`.
+
 **Task:**
 
-The provided datasets contain parameters of gold flotation process. The data is indexed by the date and time the information was received  (`date` feature in datasets). Data is collected every hour. Parameters adjacent in time are often similar.  
+The provided datasets contain parameters of gold flotation process. The data is indexed by the date and time the information was received  (`date` feature in datasets). Data is collected every hour and is already ordered chronologically. Parameters adjacent in time are often similar.  
   
 Prepare a prototype machine learning model.   
 The model should predict the recovery rate of gold from gold ore.  
