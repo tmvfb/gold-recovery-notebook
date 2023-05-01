@@ -1,4 +1,5 @@
 # Recovery of gold from ore
+[![image](https://raw.githubusercontent.com/jupyter/design/0ed7f5798358c203d8bc6c1ce0f46d9c8294fd4e/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/tmvfb/gold-recovery-notebook/blob/main/notebook.ipynb)
 
 The final project with small omissions is presented in `notebook.ipynb` file.  
 The project with more thorough explanations, justifications and frighteningly excessive figures is stored in `notebook_extended.ipynb`.
